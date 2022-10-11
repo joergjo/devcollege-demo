@@ -36,4 +36,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd java-boot-todo
-          mvn clean package
+          mvn clean package -DskipTests
