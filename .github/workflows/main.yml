@@ -29,4 +29,3 @@ jobs:
         run: | 
           cd java-boot-todo
           docker build -t joergjo/java-boot-todo:ci${{ github.run_id }} .
-	        docker push -t joergjo/java-boot-todo:ci${{ github.run_id }}
